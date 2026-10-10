@@ -13,7 +13,7 @@ For two positive integers, find the largest positive integer that divides both w
 | [GCD_1.py](GCD_1.py) | Check every possible divisor | O(min(a, b)) | O(1) |
 | [GCD_2.py](GCD_2.py) | Euclidean algorithm | O(log(min(a, b))) iterations* | O(1) |
 
-*The case where the smaller positive input is 1 takes constant time. These estimates treat arithmetic operations as constant time and exclude printed output; Python's arbitrary-size integer operations also depend on the number of digits.
+*The case where the smaller positive input is 1 takes constant time. These estimates treat arithmetic operations as constant time and exclude printed output; Python's arbitrary size integer operations also depend on the number of digits.
 
 ### Naive search
 

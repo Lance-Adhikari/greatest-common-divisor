@@ -10,4 +10,4 @@ def gcd(a, b):
 gcd_first = int(input("Enter First Number: "))
 gcd_second = int(input("Enter Second Number: "))
 
-print("GCD = ", gcd(gcd_second, gcd_second))
+print("GCD = ", gcd(gcd_first, gcd_second))
